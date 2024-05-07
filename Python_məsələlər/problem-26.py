@@ -6,7 +6,6 @@ sıra ilə düzüldüyünü müəyyən edən proqram tərtib edin.
 a = list(map(int,input()))
 blist = a.copy()
 blist.sort()
-print(a,blist)
 if blist == a:
     print('Sıra ilə düzülmüşdür')
 else:
