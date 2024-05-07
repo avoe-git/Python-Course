@@ -3,7 +3,7 @@
 dəyişən proqram tərtib edin.
 '''
 
-k = list(input())
+k = list(str(int(input())))
 a1 = k[0] 
 a2 = k[len(k)-1]
 k[len(k)-1] = a1
