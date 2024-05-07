@@ -7,13 +7,11 @@ Proqramı üç durğu işarəsi üçün ( ":", "," , ".") belə yazmaq olar:
 
 durgu_isareleri=['.',':',',']
 metn = list(input())
-me=[]
+yeni = []
 for i in metn:
-    if i in durgu_isareleri:
-        if metn[metn.index(i)+1] != ' ':
-            me.append(metn.index(i)+1)
-
-for i in range(len(me)):
-    metn.insert(me[i]+i,' ')
-
-print(''.join(metn))
+    if i not in durgu_isareleri or not ' ':
+        yeni.append(i)
+    elif i in durgu_isareleri:
+        yeni.append(i)
+        yeni.append(' ')
+print(''.join(yeni))
