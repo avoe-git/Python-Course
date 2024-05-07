@@ -5,8 +5,7 @@ sıra ilə düzüldüyünü müəyyən edən proqram tərtib edin.
 
 a = list(map(int,input()))
 blist = a.copy()
-blist.sort()
-if blist == a:
+if blist.sort() == a:
     print('Sıra ilə düzülmüşdür')
 else:
     print('Sıra ilə düzülməmişdir')
