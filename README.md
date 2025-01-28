@@ -1,1 +1,1 @@
-# This is my python solution files from various courses I took a part.
+# These are my python solution files from various courses I took a part.
