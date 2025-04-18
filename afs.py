@@ -31,11 +31,15 @@ def get_next_numbered_filename(folder):
     return f"solution_{next_num}.py", next_num
 
 def prompt_problem_statement():
-    print("📝 Paste the problem statement below. Press ENTER then Ctrl+D (or Ctrl+Z on Windows) when done:")
-    try:
-        return "\n".join(iter(input, ""))
-    except EOFError:
-        return ""
+    print("📝 Paste the problem statement below. Press ENTER twice to finish:")
+    lines = []
+    while True:
+        line = input()
+        if line.strip() == "":
+            break
+        lines.append(line)
+    return "\n".join(lines)
+
 
 def append_to_statements_md(number, filename, statement):
     with open("statements.md", "a", encoding="utf-8") as f:
