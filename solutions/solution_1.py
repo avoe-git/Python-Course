@@ -12,3 +12,5 @@ for i in list_a:
     if '0' in i or '1' in i or '2' in i or '3' in i or '4' in i or '5' in i or '6' in i or '7' in i or '8' in i or '9' in i:
         print(i, end=' ')
 print()
+
+#* Completed

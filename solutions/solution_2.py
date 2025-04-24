@@ -26,3 +26,5 @@ for i in k:
         üçbucaqlar.append(temp)
     temp = []
 print("Qurula biləcək itibucaqlı üçbucaqların sayı:" , say , "\nBu itibucaqlı üçbucaqların tərəflərinin kvadratları:" ,üçbucaqlar)
+
+#* Completed
