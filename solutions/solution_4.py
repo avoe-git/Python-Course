@@ -8,4 +8,4 @@ Boşluqlarla daxil edilmiş sətirin hər sözünün son simvolunu həmin simvol
 n = input()
 k = n.split(' ')
 
-#! Uncompleted
+#? PASSED
